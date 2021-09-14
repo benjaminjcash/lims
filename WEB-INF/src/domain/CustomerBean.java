@@ -1,7 +1,7 @@
 package domain;
 
-public class LoginBean {
-	public LoginBean() {}
+public class CustomerBean {
+	public CustomerBean() {}
 	
 	private String username;
 	public void setUsername(String username) {
@@ -17,5 +17,13 @@ public class LoginBean {
 	}
 	public String getPassword() {
 		return this.password;
+	}
+	
+	private String firstName;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getFirstName() {
+		return this.firstName;
 	}
 }
